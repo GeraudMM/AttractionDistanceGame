@@ -14,7 +14,8 @@ For both Agents, the four actions are :
 - `4` - Turn a bit to the right
 
 #### Trained Agents
-For each generation we train multiple agents simultaneously. Here we have 8*10 training in the same time
+For each generation we train multiple agents simultaneously. Here we have 8*10 training in the same time.
+The purple ones are the Hunter and the green ones are the hunted. When a hunted is reach, it pop in an other location of its cell.
 ![](https://github.com/GeraudMM/AttractionDistanceGame/blob/master/AttractionDistanceGame.png)
 
 During an episode of training, we have 8*10*2 agents trying to stay alive. Once the generation ends, we choose the bests ones in both sides and duplicate them with a genetic algorithm that provide mutation on the neurals networks. 
