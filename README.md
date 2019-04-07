@@ -27,5 +27,5 @@ In order to run this simulation, you'll have to download Atom, sublim text or vi
 I recomand you to go with [Atom](https://atom.io/) as you can directly download the Atom-live-server packages to lauch your projects locally on your browser.
 
 
-### This project was made thanks to Daniel shifman's tutorials on NeuroEvolution on YouTube. The neural network library come from him.
+This project was made thanks to Daniel shifman's tutorials on NeuroEvolution on YouTube.
 
