@@ -18,7 +18,7 @@ For each generation we train multiple agents simultaneously. Here we have 8*10 t
 The purple ones are the Hunter and the green ones are the hunted. When a hunted is reach, it pop in an other location of its cell.
 ![](https://github.com/GeraudMM/AttractionDistanceGame/blob/master/AttractionDistanceGame.png)
 
-During an episode of training, we have 8*10*2 agents trying to stay alive. Once the generation ends, we choose the bests ones in both sides and duplicate them with a genetic algorithm that provide mutation on the neurals networks. 
+During an episode of training, we have `8*10*2` agents trying to stay alive. Once the generation ends, we choose the bests ones in both sides and duplicate them with a genetic algorithm that provide mutation on the neurals networks. 
 Finally, after many selection and mutation we succed to have interresting behaviour between the two agents. The hunted learn to fool the hunter by turning arround him instead of run away from it.
 
 ## Installing
